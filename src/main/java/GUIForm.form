@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="ddce5">
+        <constraints border-constraint="West"/>
+      </vspacer>
+      <vspacer id="1a02e">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <hspacer id="f93ed">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <hspacer id="7face">
+        <constraints border-constraint="South"/>
+      </hspacer>
+      <grid id="3f2d9" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8cd5" class="javax.swing.JTextField" binding="filePath">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <editable value="false"/>
+              <preferredSize width="550" height="30"/>
+            </properties>
+          </component>
+          <component id="779e2" class="javax.swing.JButton" binding="selectButton">
+            <constraints/>
+            <properties>
+              <text value="Choose directory"/>
+            </properties>
+          </component>
+          <component id="356a0" class="javax.swing.JButton" binding="actionButton">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
